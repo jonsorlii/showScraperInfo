@@ -7,7 +7,7 @@ const cors = require('cors');
 const db = mysql.createPool({
     host: 'localhost',
     user: 'root', 
-    password: '12345',
+    password: 'password',
     database: 'scrapy',
 });
 
@@ -33,7 +33,7 @@ app.delete("/api/delete/:ticker_name", (req,res) => {
     if (err) {
       console.log(err)
     }
-    console.log("HEI")
+    console.log("TEST")
     res.send(result)
   })
 });
