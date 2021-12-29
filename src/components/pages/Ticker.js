@@ -3,7 +3,7 @@ import React from 'react'
 function Ticker() {
     return (
         <p>
-        Kølle
+        TEST 123 
         </p>
     )
 }
